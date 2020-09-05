@@ -22,6 +22,10 @@
 function flyBy(lamps, drone){
   return lamps.slice(0, drone.length).replace(/x/g, 'o') + lamps.slice(drone.length)
 }
+
+function solution(nums){
+  return nums != null ? nums.sort((a,b) => a - b) : []; 
+}
 ```
 ### Experience  
     I have no experience in commercial development.
